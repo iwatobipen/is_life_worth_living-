@@ -2,7 +2,7 @@
   
     
         "post0": {
-            "title": "my first est post",
+            "title": "my first test post",
             "content": "About . this is a first test for bogging with fastpages. . option . toc means table of contents . import pandas as pd import numpy as np from rdkit import Chem from rdkit.Chem.Draw import IPythonConsole . . mol = Chem.MolFromSmiles(&#39;c1ccccc1&#39;) mol . . import numpy as np from rdkit.Chem import AllChem from rdkit.Chem.Draw import rdDepictor from rdkit.Chem import rdMolTransforms from rdkit import rdBase from IPython import display import copy def rot_ar_x(radi): return np.array([[1, 0, 0, 0], [0, np.cos(radi), -np.sin(radi), 0], [0, np.sin(radi), np.cos(radi), 0], [0, 0, 0, 1]], dtype=np.double) def rot_ar_y(radi): return np.array([[np.cos(radi), 0, np.sin(radi), 0], [0, 1, 0, 0], [-np.sin(radi), 0, np.cos(radi), 0], [0, 0, 0, 1]], dtype=np.double) def rot_ar_z(radi): return np.array([[np.cos(radi), -np.sin(radi), 0, 0], [np.sin(radi), np.cos(radi), 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]], dtype=np.double) tforms = {0: rot_ar_x, 1: rot_ar_y, 2: rot_ar_z} . mol = Chem.MolFromSmiles(&quot;C[C@H]1COc2c3n1cc(c(=O)c3cc(c2N4CCN(CC4)C)F)C(=O)O&quot;) rdDepictor.Compute2DCoords(mol) mol . rdMolTransforms.TransformConformer(mol.GetConformer(0), tforms[2](2*np.pi/16)) . mol .",
             "url": "https://iwatobipen.github.io/is_life_worth_living-/jupyter/2021/10/17/mytest.html",
             "relUrl": "/jupyter/2021/10/17/mytest.html",
